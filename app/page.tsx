@@ -1,6 +1,7 @@
 // pages/index.js
 import Head from 'next/head';
 import Image from 'next/image';
+import Navbar from '@/components/Navbar/Navbar';
 
 export default function Home() {
   return (
@@ -12,16 +13,7 @@ export default function Home() {
 
       {/* Header Section */}
       <header className="bg-white shadow">
-        <nav className="container mx-auto flex justify-between items-center py-4">
-          <div>
-            <a href="#" className="text-lg font-bold">YourDigitalBusiness</a>
-          </div>
-          <div>
-            <a href="#services" className="text-gray-600 hover:text-gray-900 px-4">Services</a>
-            <a href="#portfolio" className="text-gray-600 hover:text-gray-900 px-4">Portfolio</a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900 px-4">Contact</a>
-          </div>
-        </nav>
+       <Navbar/>
       </header>
 
       {/* Main Content */}
