@@ -37,26 +37,35 @@ export default function Home() {
 
         {/* Services Section */}
         <section id="services" className="container mx-auto py-20">
-          <div className="flex flex-wrap -mx-4">
-            {/* Website Development Service */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Website Development</h3>
-              <p className="text-gray-600 mb-5">Custom designs, e-commerce solutions, and responsive websites tailored to your business needs.</p>
+        <div className="flex flex-wrap -mx-4">
+          {/* Website Development Service */}
+          <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div className="mb-4">
+              <Image src="/websitedev.png" alt="Website Development" width={300} height={200} />
             </div>
-
-            {/* App Development Service */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">App Development</h3>
-              <p className="text-gray-600 mb-5">Creating high-performance iOS and Android apps to engage your customers on the go.</p>
-            </div>
-
-            {/* Ad Management Service */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Ad Management</h3>
-              <p className="text-gray-600 mb-5">Strategic ad campaigns that convert viewers into customers and drive business growth.</p>
-            </div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-3">Website Development</h3>
+            <p className="text-gray-600 mb-5">Custom designs, e-commerce solutions, and responsive websites tailored to your business needs.</p>
           </div>
-        </section>
+
+          {/* App Development Service */}
+          <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div className="mb-4">
+              <Image src="/appdev.png" alt="App Development" width={300} height={200} />
+            </div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-3">App Development</h3>
+            <p className="text-gray-600 mb-5">Creating high-performance iOS and Android apps to engage your customers on the go.</p>
+          </div>
+
+          {/* Ad Management Service */}
+          <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div className="mb-4">
+              <Image src="/admgm.png" alt="Ad Management" width={300} height={200} />
+            </div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-3">Ad Management</h3>
+            <p className="text-gray-600 mb-5">Strategic ad campaigns that convert viewers into customers and drive business growth.</p>
+          </div>
+        </div>
+      </section>
 
         {/* Portfolio Section */}
         <section id="portfolio" className="bg-gray-100 py-20">
