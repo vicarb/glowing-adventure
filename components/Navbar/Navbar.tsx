@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="bg-white shadow">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <div>
-          <a href="#" className="text-lg font-bold">YourDigitalBusiness</a>
+          <a href="#" className="text-lg font-bold">DigitalBusiness</a>
         </div>
         <div className="hidden md:block">
           <a href="#services" className="text-gray-600 hover:text-gray-900 px-4">Services</a>
